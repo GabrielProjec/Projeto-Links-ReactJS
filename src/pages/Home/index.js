@@ -1,9 +1,34 @@
 import React from "react";
+import "./home.css";
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="home-container">
+      <h1>Sujeito Programador</h1>
+      <span>Veja meus links 👇</span>
+
+      <main className="links">
+        <section className="link-area">
+          <a href="/">
+            <p className="link-text">Canal do Youtube</p>
+          </a>
+        </section>
+        <section className="link-area">
+          <a href="/">
+            <p className="link-text">Canal do Youtube</p>
+          </a>
+        </section>
+        <section className="link-area">
+          <a href="/">
+            <p className="link-text">Canal do Youtube</p>
+          </a>
+        </section>
+        <section className="link-area">
+          <a href="/">
+            <p className="link-text">Canal do Youtube</p>
+          </a>
+        </section>
+      </main>
     </div>
   );
 }
