@@ -19,21 +19,7 @@ function Home() {
             <p className="link-text">Canal do Youtube</p>
           </a>
         </section>
-        <section className="link-area">
-          <a href="/">
-            <p className="link-text">Canal do Youtube</p>
-          </a>
-        </section>
-        <section className="link-area">
-          <a href="/">
-            <p className="link-text">Canal do Youtube</p>
-          </a>
-        </section>
-        <section className="link-area">
-          <a href="/">
-            <p className="link-text">Canal do Youtube</p>
-          </a>
-        </section>
+       
 
         <footer>
           <Socials url="https://facebook.com/GabrielRodrigues">
