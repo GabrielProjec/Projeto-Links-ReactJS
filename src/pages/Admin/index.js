@@ -1,9 +1,13 @@
 import React from "react";
+import "./admin.css";
+
+// COMPONENTS
+import Header from "../../components/Header/index.js";
 
 function Admin() {
   return (
-    <div>
-      <h1>Pagina de Admin</h1>
+    <div className="admin-container">
+      <Header />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import "./login.css";
 
 // COMPONENTS
 import Logo from "../../components/Logo";
+import InputArea from "../../components/Input";
 
 //FIREBASE
 import { auth } from "../../services/FirebaseConnections";
@@ -38,14 +39,14 @@ function Login() {
       <Logo />
 
       <form onSubmit={handleLogin} className="form">
-        <input
+        <InputArea
           type="email"
           placeholder="Digite seu email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <input
+        <InputArea
           type="password"
           placeholder="********"
           autoComplete="on"
